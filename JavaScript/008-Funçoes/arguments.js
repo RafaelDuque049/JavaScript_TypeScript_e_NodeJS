@@ -9,7 +9,9 @@ console.log(soma(10, 15))
 
 
 function objeto(){
-    return arguments;
+    return arguments; // [Arguments] { '0': 1, '1': 4, '2': 2, '3': 'rgr', '4': true }
+    // Arguments é utilizado quando há a necessidade de utilizar mais de um argumento. 
+    // Assim, retornando os parâmetros dentro de um Objeto, recebendo como chave seus indices.
 }
 
 console.log(objeto(1, 4, 2, 'rgr', true))

@@ -6,7 +6,7 @@ class pessoa{
     }
 }
 
-let pessoa2 = new pessoa('Rafael', 18, 'M'); // O metodo NEW cria uma instância(copia) de uma classe em forma de Objeto. Podendo fazer instanciação de funções.
+let pessoa2 = new pessoa('Rafael', 18, 'M'); // Metodo NEW: ele faz a instância(copia) de uma classe em forma de Objeto. Podendo fazer instanciação de funções.
 
 console.log('nome ->', pessoa2.nome)
 console.log('idade ->',pessoa2.idade)
